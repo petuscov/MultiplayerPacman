@@ -22,11 +22,11 @@ app.get('/res/levels/1.txt',function(req,res){
 app.get('/favicon.ico',function(req,res){
     res.sendFile(__dirname + '/res/pacman.ico');
 });
-/* //al final lo cojemos de internet.
+//al final NO lo cojemos de internet.
 app.get('/js/jquery-3.1.1.min.js',function(req,res){
     res.sendFile(__dirname + '/js/jquery-3.1.1.min.js');
 });
-*/
+
 
 /****** pruebas *******/
 app.get('/pruebaFPS.html',function(req,res){
