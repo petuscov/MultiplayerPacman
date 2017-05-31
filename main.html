@@ -1,0 +1,48 @@
+<meta charset="UTF-8">
+<html>
+
+	<head>
+		<title>Hub Principal PacMan</title>
+		<link rel="stylesheet" href="css/index.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> 
+		<!-- <script src="js/jquery-3.1.1.min.js" crossorigin="anonymous"></script>-->
+		<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
+  		<script src="./main.js"></script>
+	</head>
+
+
+	<body>
+
+		<div class="mainContainer">
+
+			<header id="titulo">Pac-Man!</header>
+			
+			<div  class = "contenedor">
+			<form class="form">
+				<h4 id="name">Nombre:</h4>
+				
+				<input name="name" class = "inputForm" id="control" type="text" autofocus placeholder = "Introduce tu nombre"/> 
+			   	<br>
+			   	<button type="button"  class = "buttonForm" id = "botNombre" >Establecer nombre</button>
+			   
+			</form>
+			</div>
+
+			<div  class = "contenedor">
+			<form class="form">
+				<h4 class="name">Crear Sala:</h4>
+				<input type="text" class = "inputForm" id="nombreSala" value="Nombre nueva sala">
+				<br>
+				<button type="button"  class = "buttonForm" id="crear" >Crear Sala</button>
+			</form>
+			</div>
+
+			<div id="salas"  class="contenedor">
+
+			</div>
+
+		</div>
+
+	</body>
+</html>

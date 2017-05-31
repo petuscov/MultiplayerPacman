@@ -1,0 +1,118 @@
+/*Main page*/
+body{
+  background: #F1F1F1;
+}
+#titulo{
+  background: #FaFaFa;
+  max-width: 1000px;
+  width: 50%;
+  margin: 0 auto;
+   padding-top: 15px;
+  padding-bottom: 15px;
+}
+.mainContainer{
+  max-width: 1000px;
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.contenedor{
+  background: #F1F1F1;
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.form {
+  background: #F1F1F1;
+  max-width: 800px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*align-items: center;*/
+  /*overflow: hidden;
+  box-sizing: border-box;
+  /*align-items: center;*/
+  /*position:center;*/
+  /*justify-content: center*/ 
+}
+
+
+.inputForm{
+  width: 100%; 
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.buttonForm, #backButton{
+  width: 100%; 
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.room{
+  width: 60%;
+  max-width: 600px;
+  background: #FAFAFA;
+  margin: 0 auto;
+  overflow: hidden;
+   padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, button, header, label, #nombrePlayer, .room{
+  text-align: center;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+h5, h6, p, input, button, header, label {
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}*/
+/*
+
+/*@media only screen and (min-width : 320px) and (max-width : 480px) {
+  background-image: url("res/background.jpg") no-repeat center center fixed;
+}*/
+
+
+/*Missing Room page*/
+
+.missing{
+ background: #F1F1F1;
+  max-width: 800px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ #mensaje, #backButton{
+  text-align: center;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.contenedorMiss{
+  background: #F1F1F1;
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+    margin-top: 20px;
+  margin-bottom: 20px;
+}

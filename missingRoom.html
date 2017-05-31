@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> 
+  <title>MissingRoom</title>
+  <link rel="stylesheet" href="css/index.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    window.onload = function(){
+      $("#backButton").click(function(){
+        window.location.href = "main.html";//"http://localhost:8888/main.html";
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+ 
+  <div class="contenedorMiss">
+
+    <div id="mensaje">La sala a la que intentas acceder no existe.</div>
+    <div class="missing">
+      <button type="button" id="backButton">Regresar al mainhub</button> 
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+/*.body{ 
+	background-image: url("res/background.jpg") no-repeat center center fixed;
+  	background-repeat: no-repeat;
+  	background:#444444;
+}*/
+body{ 
+	background-image: url("res/background.jpg"); /*no-repeat center center fixed;*/
+	background-image:center center fixed;
+  	background-repeat: no-repeat;
+  	background-size:cover;
+  	/*display:block;*/
+}
+.preContainer{
+
+  /*color: black;
+  border: 1px solid black;*/
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.canvasContainer{
+
+  /*color: black;
+  border: 1px solid black;*/
+  max-width: 420px; /*420x500*/
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+canvas{
+  color: black;
+  border: 1px solid black;
+    width: 100%; /*dejar tal cual, cambiar medidas del canvasContainer*/
+    margin: 0 auto;
+       /*float:left;*/
+        box-sizing: border-box;
+}
+ 
+.mainContainer{
+
+  max-width: 800px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.infoContainer{
+
+  color: black;
+  border: 0.5px solid black;
+  max-width: 504px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+   box-sizing: border-box;
+}
+
+#fps { 
+  max-width:163px;
+    width: 33%;
+    margin: 0 auto;
+   float:left;
+      box-sizing: border-box;
+}
+
+#vidas{
+  max-width:163px;
+    width: 33%;
+    margin: 0 auto;
+   float:left;
+     box-sizing: border-box;
+}
+
+#puntuacion{
+  max-width:163px;
+     width: 33%;
+     margin: 0 auto;
+     float:left;
+       box-sizing: border-box;
+}
+#fps,#vidas,#puntuacion{
+   padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/**/
+
+/* default state */
+.state-indicator {
+    position: absolute;
+    top: -999em;
+    left: -999em;
+
+    z-index: 1;
+}
+
+/* small desktop */
+@media all and (max-width: 1200px) {
+    .state-indicator {
+        z-index: 2;
+    }
+}
+
+/* tablet */
+@media all and (max-width: 1024px) {
+    .state-indicator {
+        z-index: 3;
+    }
+}
+
+/* mobile phone */
+@media all and (max-width: 768px) {
+    .state-indicator {
+        z-index: 4;
+    }
+}
